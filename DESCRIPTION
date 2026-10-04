@@ -24,7 +24,7 @@ Encoding: UTF-8
 Config/roxygen2/version: 8.1.0
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2026-10-04 11:05:27 UTC; garthtarr
+Packaged: 2026-10-04 11:16:04 UTC; garthtarr
 Author: Garth Tarr [aut, cre] (ORCID: <https://orcid.org/0000-0002-6605-7478>),
   Samuel Mueller [aut] (ORCID: <https://orcid.org/0000-0002-3087-8127>),
   Alan H Welsh [aut] (ORCID: <https://orcid.org/0000-0002-3165-9559>)
