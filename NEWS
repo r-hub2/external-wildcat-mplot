@@ -21,6 +21,10 @@ mplot 1.1.0 [2026-10-03]
   silently simplified to an array whenever every bootstrap replication
   produced the same number of unique selected models, causing a
   do.call(rbind, x) failure (#14)
+* the bglmnet() example now runs sequentially (cores = 1) so it stays
+  well under CRAN's 10 second limit for example run times
+* removed the defunct Travis-CI badge from README.md (CRAN flagged the
+  stale URL)
 * af() now shuffles the dispatch order of the c-value tasks to avoid
   load imbalance across workers (the cheap large-c tail is no longer
   clustered into a single chunk); results remain reproducible via the
